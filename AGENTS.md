@@ -7,7 +7,7 @@ Estas regras valem para qualquer issue e qualquer pull request deste repositóri
 - Abra a issue no repositório `thaifurforo/Livvo`. O quadro é o [projeto Livvo](https://github.com/users/thaifurforo/projects/3).
 - Título curto, dizendo o que precisa ser feito.
 - Corpo com o contexto, o resultado esperado e o que ainda está em aberto. Se já existir um documento no repositório que cubra o detalhe, enlace esse arquivo em vez de copiá-lo.
-- Use uma label que já exista e que descreva o tipo do trabalho.
+- Use uma label que descreva o tipo do trabalho. Se ela já existir no repositório, use essa. Se não existir, crie a label no repositório, com nome curto e uma descrição de uma linha, e aplique na issue.
 
 ## Pull requests
 
