@@ -37,7 +37,7 @@ hierarchy:
   level3: task
 
 delivery_docs:
-  path: .milestones
+  path: docs
 
 skills:
   tlc_spec_driven: false
