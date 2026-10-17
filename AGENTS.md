@@ -1,25 +1,24 @@
 # Instruções para agentes
 
-O produto está descrito em [docs/prd.md](docs/prd.md). Issues não copiam o PRD inteiro.
+Estas regras valem para qualquer issue e qualquer pull request deste repositório.
 
 ## Issues
 
-- Abra a issue no repositório `thaifurforo/Livvo`. O projeto do GitHub é o [Livvo](https://github.com/users/thaifurforo/projects/3).
-- Título curto, no que a entrega faz.
-- Corpo com o contexto e o que falta decidir. O requisito detalhado continua no PRD, com link para `docs/prd.md`.
-- Use as labels que já existem quando couberem (`documentation`, `prd`, `enhancement`, `bug`).
+- Abra a issue no repositório `thaifurforo/Livvo`. O quadro é o [projeto Livvo](https://github.com/users/thaifurforo/projects/3).
+- Título curto, dizendo o que precisa ser feito.
+- Corpo com o contexto, o resultado esperado e o que ainda está em aberto. Se já existir um documento no repositório que cubra o detalhe, enlace esse arquivo em vez de copiá-lo.
+- Use uma label que já exista e que descreva o tipo do trabalho.
 
 ## Pull requests
 
-- Uma branch a partir de `main`. Não faça push direto em `main`.
-- O corpo do pull request inclui `Closes #N`, com o número da issue que a entrega fecha.
-- O merge leva o card dessa issue para **Done** no projeto: o pull request mergeado fecha a issue, e a issue fechada vai para Done.
-- Sem `Closes #N`, o merge não move a issue.
+- Crie uma branch a partir de `main`. Não faça push direto em `main`.
+- O pull request entrega uma issue. No corpo, inclua `Closes #N`, trocando `N` pelo número dessa issue.
+- No merge, essa linha fecha a issue. A issue fechada vai para **Done** no projeto.
+- Sem `Closes #N`, o merge não fecha a issue e o card não vai para Done.
+- Não faça merge. Quem abre o pull request deixa o merge para uma pessoa.
 
 Exemplo no corpo:
 
 ```
 Closes #12
 ```
-
-- Não faça merge. Quem abre o pull request deixa o merge para uma pessoa.
