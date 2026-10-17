@@ -1,0 +1,46 @@
+# harness.config.yaml
+# Gerado pelo setup wizard do harness-engineering.
+# Edite conforme necessário. Releia a cada sessão.
+
+project:
+  name: "Livvo"
+
+project_tracking:
+  tool: github
+  source_of_truth: external
+  github:
+    repository: thaifurforo/Livvo
+    project_url: "https://github.com/users/thaifurforo/projects/3"
+    milestone_policy: none
+  jira:
+    url: ""
+    project_key: ""
+    board_id: ""
+  linear:
+    team_id: ""
+  azuredevops:
+    organization: ""
+    project: ""
+
+release_management:
+  strategy: none
+  repository: thaifurforo/Livvo
+  version_source: manual
+  labels:
+    patch: release:patch
+    minor: release:minor
+    major: release:major
+
+hierarchy:
+  level1: epic
+  level2: user-story
+  level3: task
+
+delivery_docs:
+  path: .milestones
+
+skills:
+  tlc_spec_driven: false
+  context7: false
+  superpowers: false
+  mermaid_studio: false
