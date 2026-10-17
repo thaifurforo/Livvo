@@ -1,6 +1,14 @@
-# Instruções para agentes
+# AGENTS.md
 
-Estas regras valem para qualquer issue e qualquer pull request deste repositório.
+## Projeto
+Livvo
+
+## Documentos-fonte
+- PRD principal: [.catalog/PRD.md](.catalog/PRD.md)
+- Convenções de acompanhamento do projeto: [.catalog/project-tracking.md](.catalog/project-tracking.md)
+
+## Regra de idioma
+- Toda a documentação do repositório, descrições de PR, issues e comentários de PR devem ser escritas em português brasileiro, com acentuação correta.
 
 ## Issues
 
