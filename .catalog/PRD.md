@@ -41,7 +41,7 @@ Quem fica sem isso é o leitor que quer o registro da leitura sem punição por 
 ### Fora da V0, dentro da V1
 
 - Anotações no livro, visíveis só para quem escreveu. Servem, por exemplo, para registrar para quem emprestou o livro ou para anotar a leitura e os personagens.
-- Filtros por metadados do livro, entre eles tipo (livro, quadrinho, revista), autor, gênero e nacionalidade.
+- Filtros por metadados do livro, entre eles tipo (livro, quadrinho, revista), autor, gênero, nacionalidade, série e universo. Série e universo são opcionais.
 - Insígnias, metas, conquistas e seguidores. No perfil, a pessoa escolhe 5 insígnias principais para exibir; as demais aparecem em "Ver mais". Conquistas ficam em uma aba própria do perfil, separadas por categorias. Metas podem ser de páginas, de um livro específico, de quantidade de livros ou de dias seguidos com histórico enviado. Quando a insígnia depende de conquistas, a regra é todas as listadas ou pelo menos N de um conjunto.
 - Feed com três recortes: geral (padrão), seguindo e o próprio. Ordenação por mais recente (padrão) ou em alta.
 - Citações, posts, resenhas, enquetes e histórico de leitura. Qualquer publicação pode ser marcada como spoiler, esteja ou não ligada a um histórico de leitura. O histórico no feed pode levar uma mensagem, com opção de spoiler, e/ou uma reação. Outras pessoas podem comentar e curtir essas publicações.
@@ -161,8 +161,9 @@ O histórico na V0 fica no perfil e na obra. Ele só aparece no feed na V1. Stat
 
 **Critérios de aceite:**
 
-- [ ] CA-01: A pessoa filtra os livros por metadados, entre eles tipo (livro, quadrinho ou revista), autor, gênero e nacionalidade.
+- [ ] CA-01: A pessoa filtra os livros por metadados, entre eles tipo (livro, quadrinho ou revista), autor, gênero, nacionalidade, série e universo.
 - [ ] CA-02: O tipo é um metadado como os demais, e o filtro mostra só os itens que combinam com os valores escolhidos.
+- [ ] CA-03: Série e universo são opcionais. O livro pode ficar sem esses campos, e o filtro por série ou por universo só restringe quando a pessoa escolhe um valor.
 
 #### RF-11 — Insígnias
 
