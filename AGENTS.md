@@ -5,6 +5,9 @@ Livvo
 
 ## Documentos-fonte
 - PRD principal: [.catalog/PRD.md](.catalog/PRD.md)
+- Arquitetura da V0: [.catalog/architecture.md](.catalog/architecture.md)
+- Stack: [.catalog/stack.md](.catalog/stack.md)
+- Domínio: [.catalog/domain.md](.catalog/domain.md)
 - Convenções de acompanhamento do projeto: [.catalog/project-tracking.md](.catalog/project-tracking.md)
 
 ## Regra de idioma
